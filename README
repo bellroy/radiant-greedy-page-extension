@@ -1,0 +1,8 @@
+= Greedy Page
+
+A page that will return for any url that implies a child page.
+
+Examples (assume a page at "/", a GreedyPage at "/greedy/", and a child at "/greedy/child/"):
+* "/" returns the real root page
+* "/greedy/child/" returns the real child page
+* "/greedy/no-real-page/" returns the real page (which will claim to have the url  requested)
