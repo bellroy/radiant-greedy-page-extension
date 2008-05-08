@@ -11,7 +11,6 @@ class GreedyPageExtension < Radiant::Extension
   end
   
   def deactivate
-    remove_const GreedyPage
   end
   
 end
